@@ -1,0 +1,26 @@
+{
+  "name": "base58-native",
+  "description": "An Implementation of Base58 and Base58Check encoding using bignum library.",
+  "version": "0.0.1",
+  "author": "",
+  "main": "./base58",
+  "keywords": [
+    "base58",
+    "base58check",
+    "base64",
+    "encoding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/magicminingpool/node-base58.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bignum": "git+https://github.com/magicminingpool/node-bignum.git"
+  },
+  "devDependencies": {
+    "mocha": ">1.0.0"
+  }
+}
